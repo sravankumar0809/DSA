@@ -11,6 +11,8 @@ int linearSearch(int arr[],int size,int target){
 int main(){
     int arr[]={4,5,6,7,3,1,23,56,11};
     int size = sizeof(arr)/sizeof(int);
-    int target = 56;
+    int target = 506;
      cout<<"Target found at the index : "<<linearSearch(arr,size,target);
 }
+
+//time complexity O(n)
